@@ -1,4 +1,14 @@
-# Typescript Solidity Dev Starter Kit
+# Pay to Win: Solidity
+
+A simple pay-to-win project, using a [solidity starter kit](https://github.com/rhlsthrm/typescript-solidity-dev-starter-kit) and [buildspace](https://buildspace.so)'s tutorial code for a basic dapp.
+
+If you pay (on rinkeby), your score will increase. Theoretically, a custom name could be provided for the leaderboard, but the UI wasn't adjusted to allow for that.
+
+To work with the smart contract, make sure to create an .env file with keys referenced from the hardhat config.
+
+On redeploy, the dapp needs to be adjusted (new ABI file, new contract address). The whole dance.
+
+# Original README: Typescript Solidity Dev Starter Kit
 
 _Updated to use Hardhat!_
 
